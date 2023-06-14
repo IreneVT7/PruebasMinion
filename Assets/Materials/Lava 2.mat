@@ -128,7 +128,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Lava_Density: 12.18
-    - _Lava_Speed: 2
+    - _Lava_Speed: 1
     - _Lightning_Cutoff: 0.15
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -161,5 +161,5 @@ Material:
     - _SpeedNormals: {r: 0.05, g: 0.05, b: 0, a: 0}
     - _SpeedTexture: {r: 0.03, g: 0.03, b: 0, a: 0}
     - _VaveSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
-    - _WaveSpeed: {r: 0.02, g: 0.02, b: 0, a: 0}
+    - _WaveSpeed: {r: 0.01, g: 0.01, b: 0, a: 0}
   m_BuildTextureStacks: []
