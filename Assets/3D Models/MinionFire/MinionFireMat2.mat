@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MinionFireBlueMat 1
+  m_Name: MinionFireMat2
   m_Shader: {fileID: -6465566751694194690, guid: 36edf8895df5f3548aef748f163ac47e,
     type: 3}
   m_ValidKeywords: []
@@ -26,7 +26,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Map:
-        m_Texture: {fileID: 2800000, guid: 053d5df05c3f31c468991d9783392818, type: 3}
+        m_Texture: {fileID: 2800000, guid: fb466913efea46a4eb0f035cfc835566, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -124,7 +124,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Rim_Intensity: 0.12
+    - _Rim_Intensity: 0.043
     - _Rim_Size: 0.42
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
