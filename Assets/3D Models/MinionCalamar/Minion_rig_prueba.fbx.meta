@@ -317,7 +317,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: R_Shoulder
       parentName: Chest
-      position: {x: 0.000014580206, y: 0.000026448011, z: 0.0000011360382}
+      position: {x: 0.000014580206, y: 0.00002644801, z: 0.0000011360382}
       rotation: {x: -0.20262052, y: -0.08459481, z: -0.77162135, w: 0.59698343}
       scale: {x: 1.0000008, y: 1.0000004, z: 1.0000001}
     - name: R_Arm
@@ -397,7 +397,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: L_Hand.001
       parentName: L_Hand
-      position: {x: -3.5855917e-12, y: 0.000031477713, z: 0}
+      position: {x: -3.5855915e-12, y: 0.000031477713, z: 0}
       rotation: {x: 0.10749396, y: -0.033742897, z: 0.05046647, w: 0.9923506}
       scale: {x: 1.0000007, y: 1.0000007, z: 0.9999999}
     - name: L_Hand.001_end
@@ -407,17 +407,17 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: R_Thight
       parentName: Hip
-      position: {x: -0.000020650852, y: 0.0000069284374, z: -0.0000052595033}
+      position: {x: -0.00002065085, y: 0.0000069284374, z: -0.0000052595033}
       rotation: {x: 0.12153983, y: 0.025553126, z: 0.025591938, w: 0.9919275}
       scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
     - name: R_Calf
       parentName: R_Thight
-      position: {x: 2.4680045e-12, y: 0.000025476338, z: 1.2107192e-12}
+      position: {x: 2.4680043e-12, y: 0.000025476338, z: 1.2107192e-12}
       rotation: {x: -0.2967662, y: -0.001988856, z: 0.021712752, w: 0.9547013}
       scale: {x: 1.0000007, y: 1.0000006, z: 0.9999997}
     - name: R_Foot
       parentName: R_Calf
-      position: {x: -3.9872242e-13, y: 0.000028086039, z: -7.4505804e-13}
+      position: {x: -3.987224e-13, y: 0.000028086039, z: -7.4505804e-13}
       rotation: {x: 0.8074965, y: -0.04934092, z: -0.04275728, w: 0.58624804}
       scale: {x: 0.99999994, y: 1.0000004, z: 1.0000004}
     - name: R_Foot_end
@@ -468,22 +468,22 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: R_Ik_Ctrl_end_end
       parentName: R_Ik_Ctrl_end
-      position: {x: -0, y: 0.000024188132, z: 0}
+      position: {x: -0, y: 0.00002418813, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: R_Pole_Ctrl
       parentName: Root
-      position: {x: 0.000026986962, y: -0.0001008865, z: 0.000028472961}
+      position: {x: 0.000026986962, y: -0.00010088649, z: 0.000028472961}
       rotation: {x: 0.0019454092, y: 0.70996994, z: 0.001961226, w: 0.70422655}
       scale: {x: 0.99999994, y: 0.99999994, z: 1}
     - name: R_Pole_Ctrl_end
       parentName: R_Pole_Ctrl
-      position: {x: 2.1420418e-12, y: 0.000024161838, z: -1.8881111e-13}
+      position: {x: 2.1420418e-12, y: 0.000024161836, z: -1.8881111e-13}
       rotation: {x: -0.000000041909516, y: -0, z: -0.000000042491592, w: 1}
       scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
     - name: R_Pole_Ctrl_end_end
       parentName: R_Pole_Ctrl_end
-      position: {x: -0, y: 0.000024161805, z: 0}
+      position: {x: -0, y: 0.000024161804, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: L_Ik_Ctrl
@@ -499,7 +499,7 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: L_Ik_Ctrl_end_end
       parentName: L_Ik_Ctrl_end
-      position: {x: -0, y: 0.000024188132, z: 0}
+      position: {x: -0, y: 0.00002418813, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: L_Pole_Ctrl
@@ -509,17 +509,17 @@ ModelImporter:
       scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
     - name: L_Pole_Ctrl_end
       parentName: L_Pole_Ctrl
-      position: {x: -3.352761e-12, y: 0.000024161838, z: 1.5717885e-12}
+      position: {x: -3.352761e-12, y: 0.000024161836, z: 1.5717885e-12}
       rotation: {x: -3.4924597e-10, y: -0, z: -0.00000008405186, w: 1}
       scale: {x: 1, y: 1, z: 1.0000001}
     - name: L_Pole_Ctrl_end_end
       parentName: L_Pole_Ctrl_end
-      position: {x: -0, y: 0.000024161805, z: 0}
+      position: {x: -0, y: 0.000024161804, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Cuerpo UWS.002
       parentName: Minion_rig_prueba(Clone)
-      position: {x: 0.0000050488115, y: 0.014605293, z: -0.0027645396}
+      position: {x: 0.0000050488115, y: 0.014605293, z: -0.0027645393}
       rotation: {x: -0.7628953, y: 0.15436906, z: -0.1245141, w: 0.6153513}
       scale: {x: 7.1536736, y: 7.1536736, z: 7.1536713}
     armTwist: 0.5
