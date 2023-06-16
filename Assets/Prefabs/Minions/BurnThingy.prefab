@@ -30,7 +30,7 @@ Transform:
   m_Children:
   - {fileID: 8615248349306715416}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &8726424341302227395
 GameObject:
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outlineMode: 1
   outlineColor: {r: 0, g: 0, b: 0, a: 1}
-  outlineWidth: 3.12
+  outlineWidth: 2.2
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
