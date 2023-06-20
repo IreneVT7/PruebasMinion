@@ -10,6 +10,11 @@ public class FrameCounter : MonoBehaviour
     float time;
     int frameCount;
 
+    private void Start()
+    {
+        Application.targetFrameRate = 60;
+    }
+
     void Update()
     {
         time += Time.deltaTime;
