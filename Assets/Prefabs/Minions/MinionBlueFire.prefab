@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 6996917525387419980}
   - component: {fileID: 6996917525387419982}
   - component: {fileID: 6996917525387419983}
+  - component: {fileID: 4409237998392096398}
   m_Layer: 0
   m_Name: Brazos Booleana
   m_TagString: Untagged
@@ -201,6 +202,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4409237998392096398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6996917525387419981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0, g: 0, b: 0, a: 1}
+  outlineWidth: 1.8
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &6996917525490795485
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,7 +328,7 @@ Transform:
   m_GameObject: {fileID: 6996917525557586517}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 2.296, y: 0, z: -1.628}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6996917525387419980}
@@ -322,7 +341,7 @@ Transform:
   - {fileID: 6996917527144079498}
   - {fileID: 6996917526078580819}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &6996917525786129271
 GameObject:
@@ -5292,6 +5311,7 @@ GameObject:
   - component: {fileID: 6996917526423010382}
   - component: {fileID: 6996917526423010376}
   - component: {fileID: 6996917526423010377}
+  - component: {fileID: 6609453881156265484}
   m_Layer: 0
   m_Name: Mano
   m_TagString: Untagged
@@ -5364,6 +5384,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6609453881156265484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6996917526423010383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0, g: 0, b: 0, a: 1}
+  outlineWidth: 1.6
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &6996917527144079499
 GameObject:
   m_ObjectHideFlags: 0
@@ -5375,6 +5413,7 @@ GameObject:
   - component: {fileID: 6996917527144079498}
   - component: {fileID: 6996917527144079492}
   - component: {fileID: 6996917527144079493}
+  - component: {fileID: 1346169353892539042}
   m_Layer: 0
   m_Name: Zapatos
   m_TagString: Untagged
@@ -5447,6 +5486,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1346169353892539042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6996917527144079499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0, g: 0, b: 0, a: 1}
+  outlineWidth: 1.99
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &6996917527199289285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5624,6 +5681,7 @@ GameObject:
   - component: {fileID: 6996917527388222083}
   - component: {fileID: 6996917527388222109}
   - component: {fileID: 6996917527388222082}
+  - component: {fileID: 8486878071168573228}
   m_Layer: 0
   m_Name: Capa
   m_TagString: Untagged
@@ -5696,3 +5754,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8486878071168573228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6996917527388222080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 0, g: 0, b: 0, a: 1}
+  outlineWidth: 1.8
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
