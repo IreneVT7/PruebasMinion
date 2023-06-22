@@ -12,7 +12,7 @@ public class FrameCounter : MonoBehaviour
 
     private void Start()
     {
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = 90;
         QualitySettings.vSyncCount = 0;
     }
     void Update()

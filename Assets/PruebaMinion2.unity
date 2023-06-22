@@ -5589,6 +5589,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 679161365334977265, guid: 45270b60ffaa98d4da1e6443ffc1daf8,
+        type: 3}
+      propertyPath: outlineMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2187274910567272262, guid: 45270b60ffaa98d4da1e6443ffc1daf8,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 2187274910567272262, guid: 45270b60ffaa98d4da1e6443ffc1daf8,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3939754542883627785, guid: 45270b60ffaa98d4da1e6443ffc1daf8,
         type: 3}
       propertyPath: m_RootOrder
@@ -5669,9 +5684,19 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5904804401664593344, guid: 45270b60ffaa98d4da1e6443ffc1daf8,
+        type: 3}
+      propertyPath: outlineMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7165422502468897036, guid: 45270b60ffaa98d4da1e6443ffc1daf8,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7165422502468897036, guid: 45270b60ffaa98d4da1e6443ffc1daf8,
+        type: 3}
+      propertyPath: outlineMode
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6602,14 +6627,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103321004}
-  m_LocalRotation: {x: 0.32129598, y: -0.33249724, z: 0.121631965, w: 0.8783053}
-  m_LocalPosition: {x: 1.59, y: 18.55, z: -4.95}
+  m_LocalRotation: {x: 0.29138374, y: -0.33642367, z: 0.1103082, w: 0.888677}
+  m_LocalPosition: {x: 2.41, y: 16.86, z: -5.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 40.186, y: -41.47, z: 0}
+  m_LocalEulerAnglesHint: {x: 36.307, y: -41.47, z: 0}
 --- !u!1001 &1114419151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7338,7 +7363,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
