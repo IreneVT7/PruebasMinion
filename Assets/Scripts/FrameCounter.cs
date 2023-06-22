@@ -12,9 +12,8 @@ public class FrameCounter : MonoBehaviour
 
     private void Start()
     {
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = 999;
     }
-
     void Update()
     {
         time += Time.deltaTime;
