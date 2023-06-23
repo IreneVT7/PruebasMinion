@@ -6195,7 +6195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 2.800171, y: -89.453354}
+  m_AnchoredPosition: {x: 2.800171, y: -89.45337}
   m_SizeDelta: {x: 74.599976, y: 285.69995}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1025180532
@@ -7363,10 +7363,10 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.63
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.1
@@ -7414,14 +7414,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643993583}
-  m_LocalRotation: {x: 0.48153296, y: -0.530821, z: 0.45412096, w: 0.52927244}
+  m_LocalRotation: {x: 0.8941232, y: -0.059071213, z: 0.068800054, w: 0.43854418}
   m_LocalPosition: {x: 3233, y: -483, z: 27984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 82.675, y: -102.359, z: -13.844}
+  m_LocalEulerAnglesHint: {x: 52.406, y: -186.704, z: -175.743}
 --- !u!1001 &1754391645
 PrefabInstance:
   m_ObjectHideFlags: 0
