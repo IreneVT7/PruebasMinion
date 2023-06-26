@@ -6227,7 +6227,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 2.800171, y: -89.45337}
+  m_AnchoredPosition: {x: 2.800171, y: -89.45325}
   m_SizeDelta: {x: 74.599976, y: 285.69995}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1025180532
@@ -7038,6 +7038,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2810839406823747777, guid: b21570361a0f0884d999cc010723883f,
         type: 3}
+      propertyPath: m_Color.b
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810839406823747777, guid: b21570361a0f0884d999cc010723883f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.90588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810839406823747777, guid: b21570361a0f0884d999cc010723883f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.5568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810839406823747777, guid: b21570361a0f0884d999cc010723883f,
+        type: 3}
       propertyPath: m_Shadows.m_Type
       value: 0
       objectReference: {fileID: 0}
@@ -7149,6 +7164,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 993797886}
     m_Modifications:
+    - target: {fileID: 2820768747247041626, guid: 3b7e078facd270843a70419b3ecf102d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1b908d3aea69214408a4f7909406bdf7, type: 2}
     - target: {fileID: 7518395454693042550, guid: 3b7e078facd270843a70419b3ecf102d,
         type: 3}
       propertyPath: m_Enabled
@@ -7405,10 +7425,10 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.63
+    m_Strength: 0.54
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.1
